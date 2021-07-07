@@ -1,14 +1,36 @@
 body {
     background-color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
-h1, h2, p, a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    color: white;
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+p { 
+    font-size: 21px;
+    color: gray;
+}
+
+img {
+    margin: 1em auto;
+    display: block;
 }
 
 a {
     text-decoration: underline;
-    color:aquamarine
+    color:aquamarine;
+}
+
+.copyright {
+    text-align: right;
+    color: gray;
 }
